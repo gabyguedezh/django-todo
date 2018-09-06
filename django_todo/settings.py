@@ -31,7 +31,7 @@ SECRET_KEY = 'gvu$qpn+v1n6a9mms$p5(g)47obm-nspjjw$#1(elj4g@44dcv'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = development
 
-ALLOWED_HOSTS = [os.environ.get('C9_HOSTING'),
+ALLOWED_HOSTS = ['django-todo-gabyguedezh.c9users.io',
                 os.environ.get('HOSTNAME')]
 
 
